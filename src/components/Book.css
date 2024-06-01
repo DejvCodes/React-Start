@@ -1,0 +1,51 @@
+.one-book {
+  position: relative;
+  width: 270px;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.7);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px;
+  margin: 24px;
+  transition: transform 0.25s ease-in-out;
+}
+.one-book:hover {
+  transform: scale(1.02);
+}
+.book-img {
+  width: 130px;
+}
+h2.main-heading {
+  font-size: 25px;
+  color: #6C6C6C;
+  margin-block: 9px;
+}
+p.published {
+  position: absolute;
+  top: 7px;
+  right: 24px;
+}
+p.description {
+  font-size: 14px;
+  height: 160px;
+  margin: 0 0 14px 0;
+}
+.btn-and-price {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-and-price .price {
+  width: 50px;
+  color: white;
+  font-size: 16px;
+  background: #4F4FEC;
+  border-radius: 16px;
+  text-align: center;
+  border: none;
+  padding: 6px 15px;
+}
