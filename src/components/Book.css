@@ -1,6 +1,7 @@
 .one-book {
   position: relative;
   width: 270px;
+  height: 100%;
   box-shadow: 0 0 20px rgb(0, 0, 0, 0.7);
   border-radius: 16px;
   display: flex;
@@ -27,7 +28,7 @@ p.published {
   top: 7px;
   right: 24px;
 }
-p.description {
+p.description { 
   font-size: 14px;
   height: 160px;
   margin: 0 0 14px 0;
